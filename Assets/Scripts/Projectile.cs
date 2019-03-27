@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,6 +9,8 @@ public class Projectile : MonoBehaviour
     [SerializeField] float projectileSpeed;
     [SerializeField] float projectileDamage;
 
+    [SerializeField] GameObject deathVFX;
+
     void Update()
     {
         transform.Translate(Vector2.right * Time.deltaTime * projectileSpeed);           
@@ -16,13 +19,21 @@ public class Projectile : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         var health = collision.GetComponent<Health>();
-        if (health) health.DealDamage(projectileDamage);
+        var attacker = collision.GetComponent<Attacker>();
 
-        if (collision.gameObject.GetComponent<Attacker>())
+        if (attacker && health)
         {
-            Debug.Log("collided with the attcker");
+            health.DealDamage(projectileDamage);
+            TriggerDeathVFX();
             Destroy(gameObject);
         }
+    }
+
+    private void TriggerDeathVFX()
+    {
+        if (!deathVFX) return;
+        GameObject deathVFXObject = Instantiate(deathVFX, transform.position, Quaternion.identity);
+        Destroy(deathVFXObject, 1f);
     }
 
     public float GetDamage() { return projectileDamage; }
