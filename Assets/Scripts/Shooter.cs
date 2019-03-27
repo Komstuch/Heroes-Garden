@@ -13,4 +13,11 @@ public class Shooter : MonoBehaviour
         Instantiate(projectile, gun.transform.position, Quaternion.identity);
         return;
     }
+
+    IEnumerator Pause(float time)
+    {
+        GetComponent<Animator>().speed = 0;
+        yield return new WaitForSeconds(time);
+        GetComponent<Animator>().speed = 1;
+    }
 }
