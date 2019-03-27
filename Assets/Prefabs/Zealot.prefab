@@ -146,3 +146,4 @@ MonoBehaviour:
   projectile: {fileID: 1842918845875322947, guid: a95267f32dc1e3d40908f39fce5a4ffe,
     type: 3}
   gun: {fileID: 982431858414844068}
+  shootingSound: {fileID: 8300000, guid: b0d3f4c5a8312a0499d29c96d9be0cc3, type: 3}

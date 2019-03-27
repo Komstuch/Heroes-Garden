@@ -212,3 +212,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+  hitSound: {fileID: 8300000, guid: f4bf00c64cf9ea2489ebd9a1ad78f561, type: 3}
+  deathSound: {fileID: 8300000, guid: f6814828d8089ed4abff3ab71258ab79, type: 3}
