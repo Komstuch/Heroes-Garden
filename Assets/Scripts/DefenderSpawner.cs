@@ -12,9 +12,10 @@ public class DefenderSpawner : MonoBehaviour
 
     private Vector2 GetSquareClicked()
     {
-        Vector2 clickPos = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
-        Vector2 worldPos = Camera.main.ScreenToWorldPoint(clickPos);
-        return worldPos;
+        Vector2 clickPos = new Vector2(Input.mousePosition.x, Input.mousePosition.y);               // Get mouse position
+        Vector2 worldPos = Camera.main.ScreenToWorldPoint(clickPos);                                // Convert to World position
+        Vector2 snapPos = new Vector2(Mathf.RoundToInt(worldPos.x), Mathf.RoundToInt(worldPos.y));  // Snap to Grid
+        return snapPos;
     }
 
     private void SpawnDefender()
