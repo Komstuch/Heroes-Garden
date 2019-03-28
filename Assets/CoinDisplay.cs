@@ -19,6 +19,11 @@ public class CoinDisplay : MonoBehaviour
         coinText.text = coins.ToString();
     }
 
+    public bool HaveEnoughCoins(int ammount)
+    {
+        return ammount <= coins;
+    }
+
     public void AddCoins(int ammount)
     {
         coins += ammount;
@@ -27,10 +32,7 @@ public class CoinDisplay : MonoBehaviour
 
     public void SpendCoins(int ammount)
     {
-        if(ammount <= coins)
-        {
             coins -= ammount;
             UpdateDisplay();
-        }
     }
 }
