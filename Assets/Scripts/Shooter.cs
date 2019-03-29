@@ -14,9 +14,12 @@ public class Shooter : MonoBehaviour
     AttackerSpawner[] spawners;
     AttackerSpawner myLaneSpawner;
 
+    Animator animator;
+
     private void Start()
     {
         SetLaneSpawner();
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -24,11 +27,11 @@ public class Shooter : MonoBehaviour
         if (IsAttackerInLane())
         {
             Debug.Log("Shoot");
-            //TODO Change animation state to shoot
+            animator.SetBool("isAttacking", true);
         } else
         {
             Debug.Log("Sit and wiat");
-            //TODO - change anim state to idle
+            animator.SetBool("isAttacking", false);
         }
     }
 
