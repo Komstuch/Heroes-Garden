@@ -9,7 +9,7 @@ public class Projectile : MonoBehaviour
     [SerializeField] float projectileSpeed;
     [SerializeField] float projectileDamage;
 
-    [SerializeField] GameObject deathVFX;
+    [SerializeField] GameObject explosionVFX;
 
     void Update()
     {
@@ -31,8 +31,8 @@ public class Projectile : MonoBehaviour
 
     private void TriggerDeathVFX()
     {
-        if (!deathVFX) return;
-        GameObject deathVFXObject = Instantiate(deathVFX, transform.position, Quaternion.identity);
+        if (!explosionVFX) return;
+        GameObject deathVFXObject = Instantiate(explosionVFX, transform.position, Quaternion.identity);
         Destroy(deathVFXObject, 1f);
     }
 
