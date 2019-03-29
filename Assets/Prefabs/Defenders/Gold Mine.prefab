@@ -172,6 +172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinVFX: {fileID: 1906222994913036, guid: 35975a57fd39c9c4296937bdfff51752, type: 3}
+  coinSound: {fileID: 8300000, guid: 4aa7039399ec27145a17cae86c2f7a4e, type: 3}
 --- !u!1 &1149397057154508547
 GameObject:
   m_ObjectHideFlags: 0

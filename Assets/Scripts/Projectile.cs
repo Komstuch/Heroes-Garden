@@ -9,6 +9,7 @@ public class Projectile : MonoBehaviour
     [SerializeField] float projectileSpeed;
     [SerializeField] float projectileDamage;
 
+    [SerializeField] AudioClip explosionSound;
     [SerializeField] GameObject explosionVFX;
 
     void Update()
@@ -24,16 +25,25 @@ public class Projectile : MonoBehaviour
         if (attacker && health)
         {
             health.DealDamage(projectileDamage);
-            TriggerDeathVFX();
-            Destroy(gameObject);
+            TriggerExplosionVFX();
+            Destroy(gameObject,0.05f);
         }
     }
 
-    private void TriggerDeathVFX()
+    private void TriggerExplosionVFX()
     {
         if (!explosionVFX) return;
         GameObject deathVFXObject = Instantiate(explosionVFX, transform.position, Quaternion.identity);
-        Destroy(deathVFXObject, 1f);
+
+        if (!explosionSound) return;
+        else AudioSource.PlayClipAtPoint(explosionSound, transform.position);
+
+        if (GetComponent<Fireball>())
+        {           
+            GetComponent<CircleCollider2D>().radius = 1.3f;
+        }
+
+        Destroy(deathVFXObject, 2f);
     }
 
     public float GetDamage() { return projectileDamage; }

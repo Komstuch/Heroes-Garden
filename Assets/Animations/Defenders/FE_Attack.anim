@@ -113,3 +113,10 @@ AnimationClip:
     floatParameter: 20
     intParameter: 0
     messageOptions: 0
+  - time: 1.1
+    functionName: Pause
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 3
+    intParameter: 0
+    messageOptions: 0
