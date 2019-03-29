@@ -10,6 +10,7 @@ public class Shooter : MonoBehaviour
     [SerializeField] GameObject gun;
 
     [SerializeField] AudioClip shootingSound;
+    [SerializeField] float shootingVolume;
 
     AttackerSpawner[] spawners;
     AttackerSpawner myLaneSpawner;
