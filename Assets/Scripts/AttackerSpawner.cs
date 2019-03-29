@@ -9,7 +9,7 @@ public class AttackerSpawner : MonoBehaviour
     [SerializeField] float minTimeBetweenSpawn = 3f;
     [SerializeField] float maxTimeBetweenSpawn = 5f;
     [SerializeField] float timeToSpawn;
-    [SerializeField] GameObject attacker;
+    [SerializeField] Attacker attacker;
 
     IEnumerator Start()
     {
@@ -21,7 +21,8 @@ public class AttackerSpawner : MonoBehaviour
 
     private void SpawnAttacker()
     {
-        GameObject currentAttacker = Instantiate(attacker, transform.position, Quaternion.identity);
+        Attacker currentAttacker = Instantiate(attacker, transform.position, Quaternion.identity) as Attacker;
+        currentAttacker.transform.parent = transform;
     }
 
     void Update()
