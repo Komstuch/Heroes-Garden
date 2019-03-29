@@ -26,11 +26,9 @@ public class Shooter : MonoBehaviour
     {
         if (IsAttackerInLane())
         {
-            Debug.Log("Shoot");
             animator.SetBool("isAttacking", true);
         } else
         {
-            Debug.Log("Sit and wiat");
             animator.SetBool("isAttacking", false);
         }
     }
