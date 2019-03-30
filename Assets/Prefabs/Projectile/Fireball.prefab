@@ -233,7 +233,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectileSpeed: 5
-  projectileDamage: 15
+  projectileDamage: 20
   explosionSound: {fileID: 8300000, guid: 1e9ee2baeeef9c447a278405735d8e47, type: 3}
   explosionVFX: {fileID: 3518673598674969625, guid: 8625dbbd416bfca4481f6e7094df9adf,
     type: 3}

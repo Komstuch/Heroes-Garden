@@ -35,6 +35,7 @@ public class Projectile : MonoBehaviour
         if (GetComponent<Fireball>())
         {           
             GetComponent<CircleCollider2D>().radius = 1.3f;
+            projectileSpeed = 0f;
         }
 
         if (explosionVFX)
