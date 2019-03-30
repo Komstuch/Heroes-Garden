@@ -185,6 +185,7 @@ GameObject:
   - component: {fileID: 1149397057154508544}
   - component: {fileID: 8078414091469616544}
   - component: {fileID: 3130322223784011456}
+  - component: {fileID: 3422854089678133789}
   m_Layer: 0
   m_Name: Gold Mine
   m_TagString: Untagged
@@ -250,7 +251,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -266,3 +267,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.05, y: 1.05}
   m_EdgeRadius: 0
+--- !u!114 &3422854089678133789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149397057154508547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25a9cb07ffac5e348a5d4c5d0cc27436, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 50
+  hitSound: {fileID: 8300000, guid: 377d30a6eeff17e4f805400211ccc46a, type: 3}
+  deathSound: {fileID: 8300000, guid: 377d30a6eeff17e4f805400211ccc46a, type: 3}

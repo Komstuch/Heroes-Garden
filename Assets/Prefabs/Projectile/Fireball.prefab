@@ -88,11 +88,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7840477708767854614}
-  - component: {fileID: 7840477708767854615}
   - component: {fileID: 7840477708767854612}
   - component: {fileID: 7840477708767854601}
   - component: {fileID: 962540753}
   - component: {fileID: 8533847402575332668}
+  - component: {fileID: 7840477708767854615}
   - component: {fileID: 2944211128608994438}
   m_Layer: 0
   m_Name: Fireball
@@ -116,23 +116,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7840477708767854615
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7840477708767854613}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91404d30ce3365840a480f165255eaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  projectileSpeed: 2
-  projectileDamage: 40
-  explosionSound: {fileID: 8300000, guid: 1e9ee2baeeef9c447a278405735d8e47, type: 3}
-  explosionVFX: {fileID: 3518673598674969625, guid: 8625dbbd416bfca4481f6e7094df9adf,
-    type: 3}
 --- !u!95 &7840477708767854612
 Animator:
   serializedVersion: 3
@@ -237,6 +220,23 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.2
+--- !u!114 &7840477708767854615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7840477708767854613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91404d30ce3365840a480f165255eaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileSpeed: 5
+  projectileDamage: 15
+  explosionSound: {fileID: 8300000, guid: 1e9ee2baeeef9c447a278405735d8e47, type: 3}
+  explosionVFX: {fileID: 3518673598674969625, guid: 8625dbbd416bfca4481f6e7094df9adf,
+    type: 3}
 --- !u!114 &2944211128608994438
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -32,18 +32,18 @@ public class Projectile : MonoBehaviour
 
     private void TriggerExplosionVFX()
     {
-        if (!explosionVFX) return;
-        GameObject deathVFXObject = Instantiate(explosionVFX, transform.position, Quaternion.identity);
-
-        if (!explosionSound) return;
-        else AudioSource.PlayClipAtPoint(explosionSound, transform.position);
-
         if (GetComponent<Fireball>())
         {           
             GetComponent<CircleCollider2D>().radius = 1.3f;
         }
 
-        Destroy(deathVFXObject, 2f);
+        if (explosionVFX)
+        {
+            GameObject deathVFXObject = Instantiate(explosionVFX, transform.position, Quaternion.identity);
+            Destroy(deathVFXObject, 2f);
+        }
+
+        if (explosionSound) { AudioSource.PlayClipAtPoint(explosionSound, transform.position); }      
     }
 
     public float GetDamage() { return projectileDamage; }

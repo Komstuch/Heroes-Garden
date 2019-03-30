@@ -31,7 +31,7 @@ public class Health : MonoBehaviour
     {
         AudioSource.PlayClipAtPoint(deathSound, transform.position, 0.5f);
         animator.SetBool("isDead", true); // Play Death Animation
-        GetComponent<PolygonCollider2D>().enabled = false; // Disable collider co projectiles can pass through
+        GetComponent<BoxCollider2D>().enabled = false; // Disable collider co projectiles can pass through
         Destroy(gameObject, 1.5f);
     }
 }
