@@ -20,6 +20,12 @@ public class Health : MonoBehaviour
     public void DealDamage(float damage)
     {
         AudioSource.PlayClipAtPoint(hitSound, transform.position, 0.5f);
+
+        if(!GetComponent<Shooter>() && GetComponent<Defender>() ) // play animation if defender is passive
+        {
+            animator.SetTrigger("hit");
+        }
+
         health -= damage;
         if (health <= 0)
         {
