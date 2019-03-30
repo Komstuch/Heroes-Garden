@@ -1,15 +1,15 @@
 fileFormatVersion: 2
-guid: a88e39bf080579b4985256f9f64b3794
+guid: 2167c637c5a09ed479e640d4a476b50a
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Fire Elemental_Attack_0
-    21300002: Fire Elemental_Attack_1
-    21300004: Fire Elemental_Attack_2
-    21300006: Fire Elemental_Attack_3
-    21300008: Fire Elemental_Attack_4
-    21300010: Fire Elemental_Attack_5
-    21300012: Fire Elemental_Attack_6
-    21300014: Fire Elemental_Attack_7
+    21300000: Fire Elemental_Death_0
+    21300002: Fire Elemental_Death_1
+    21300004: Fire Elemental_Death_2
+    21300006: Fire Elemental_Death_3
+    21300008: Fire Elemental_Death_4
+    21300010: Fire Elemental_Death_5
+    21300012: Fire Elemental_Death_6
+    21300014: Fire Elemental_Death_7
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -114,121 +114,141 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fire Elemental_Attack_1
+      name: Fire Elemental_Death_0
       rect:
         serializedVersion: 2
-        x: 624
-        y: 3
-        width: 110
-        height: 126
-      alignment: 9
-      pivot: {x: 0.2244246, y: 0.42227373}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 53024255d4bc2f24bbbe9ff2b6e0709e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fire Elemental_Attack_2
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 1
-        width: 46
-        height: 104
-      alignment: 9
-      pivot: {x: 0.4497246, y: 0.4936466}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1370771819decdc4a97f6a8d6a3f0e08
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fire Elemental_Attack_3
-      rect:
-        serializedVersion: 2
-        x: 134
-        y: 3
-        width: 46
-        height: 103
-      alignment: 9
+        x: 25
+        y: 0
+        width: 54
+        height: 114
+      alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da264c014528feb4a8bd3cb7a1f719c1
+      spriteID: c04c44326c9ebc4478811d803655e33d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Elemental_Attack_4
+      name: Fire Elemental_Death_1
       rect:
         serializedVersion: 2
-        x: 249
+        x: 137
+        y: 0
+        width: 54
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b644ffc7f439c2b42b28c00abbea45c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Elemental_Death_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 62
+        height: 114
+      alignment: 9
+      pivot: {x: 0.3876318, y: 0.50509274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41a7804e4ac4ad4584f150b052067a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Elemental_Death_3
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 0
+        width: 69
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99efd82c50aff1f4e92901f44ac529eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Elemental_Death_4
+      rect:
+        serializedVersion: 2
+        x: 490
         y: 1
-        width: 50
-        height: 103
-      alignment: 9
-      pivot: {x: 0.48678467, y: 0.51283026}
+        width: 56
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a62813edfca584642b916604e95670f7
+      spriteID: 4ff5e0688061f7d4ebc8c7bc695679fc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Elemental_Attack_5
+      name: Fire Elemental_Death_5
       rect:
         serializedVersion: 2
-        x: 363
-        y: 3
-        width: 74
-        height: 101
-      alignment: 9
-      pivot: {x: 0.34276065, y: 0.5000002}
+        x: 631
+        y: 0
+        width: 63
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f20523bef9daaa74b9fe2a86b2c5a89a
+      spriteID: acf6a114bd86bc245bbabc2f19a341e2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Elemental_Attack_6
+      name: Fire Elemental_Death_7
       rect:
         serializedVersion: 2
-        x: 481
-        y: 3
-        width: 111
-        height: 116
-      alignment: 9
-      pivot: {x: 0.22690754, y: 0.44371548}
+        x: 762
+        y: 0
+        width: 43
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d5cf74542031d34c96c4fa2190ca261
+      spriteID: 9d6562f1159437841b380789855f2aa2
       vertices: []
       indices: 
       edges: []
@@ -236,7 +256,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: bb3b3c0cf1624914794a7551da431f57
+    spriteID: f12096f3a135463448df09448bb1c37a
     vertices: []
     indices: 
     edges: []

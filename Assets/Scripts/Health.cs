@@ -17,7 +17,7 @@ public class Health : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    public void DealDamage(float damage)
+    public bool DealDamage(float damage)
     {
         AudioSource.PlayClipAtPoint(hitSound, transform.position, 0.5f);
 
@@ -27,10 +27,13 @@ public class Health : MonoBehaviour
         }
 
         health -= damage;
+
         if (health <= 0)
         {
             Die();
+            return true;
         }
+        else { return false; }
     }
 
     private void Die()
