@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,11 +8,11 @@ public class AttackerSpawner : MonoBehaviour
     [SerializeField] float minTimeBetweenSpawn = 3f;
     [SerializeField] float maxTimeBetweenSpawn = 5f;
     [SerializeField] float timeToSpawn;
-    [SerializeField] Attacker attacker;
+    [SerializeField] Attacker[] attackerPrefabs;
 
     IEnumerator Start()
     {
-        timeToSpawn = UnityEngine.Random.Range(minTimeBetweenSpawn, maxTimeBetweenSpawn);
+        timeToSpawn = Random.Range(minTimeBetweenSpawn, maxTimeBetweenSpawn);
         yield return new WaitForSeconds(timeToSpawn);
         SpawnAttacker();
         spawn = true;
@@ -21,7 +20,9 @@ public class AttackerSpawner : MonoBehaviour
 
     private void SpawnAttacker()
     {
-        Attacker currentAttacker = Instantiate(attacker, transform.position, Quaternion.identity) as Attacker;
+        int attackerId = Random.Range(0, attackerPrefabs.Length);
+
+        Attacker currentAttacker = Instantiate(attackerPrefabs[attackerId], transform.position, Quaternion.identity) as Attacker;
         currentAttacker.transform.parent = transform;
     }
 

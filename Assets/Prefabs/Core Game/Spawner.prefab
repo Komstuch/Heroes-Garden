@@ -46,5 +46,6 @@ MonoBehaviour:
   minTimeBetweenSpawn: 2
   maxTimeBetweenSpawn: 5
   timeToSpawn: 0
-  attacker: {fileID: 3352284665655976465, guid: e25de8b3ea5545044ab0cb7aaecff386,
-    type: 3}
+  attackerPrefabs:
+  - {fileID: 3352284665655976465, guid: e25de8b3ea5545044ab0cb7aaecff386, type: 3}
+  - {fileID: 6255945116915262027, guid: 34a5ca5b35fcd9147954c1c6c0de019b, type: 3}
