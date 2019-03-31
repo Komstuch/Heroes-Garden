@@ -6,10 +6,9 @@ using UnityEngine;
 public class Attacker : MonoBehaviour
 {
     float movementSpeed = 0f;
-
-    [SerializeField] float health;
-
     GameObject currentTarget;
+
+    [SerializeField] float damage;
 
     void Update()
     {
@@ -36,15 +35,23 @@ public class Attacker : MonoBehaviour
         currentTarget = target;
     }
 
-    public void StrikeCurrentTarget(float damage)
+    public void StrikeCurrentTarget()
     {
         if (!currentTarget) return;
         Health health = currentTarget.GetComponent<Health>();
 
-        if (health)
+        if (health.GetHealth() > 0)
         {
             bool targetDead = health.DealDamage(damage);
             if (targetDead) { currentTarget = null; }
         }
+        else { currentTarget = null; }
+    }
+
+    IEnumerator Pause(float time)
+    {
+        GetComponent<Animator>().speed = 0;
+        yield return new WaitForSeconds(time);
+        GetComponent<Animator>().speed = 1;
     }
 }

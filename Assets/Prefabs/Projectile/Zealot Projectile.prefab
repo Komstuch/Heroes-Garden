@@ -96,6 +96,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectileSpeed: 4
   projectileDamage: 40
+  explosionSound: {fileID: 0}
   explosionVFX: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5,
     type: 3}
 --- !u!70 &3388753231797928548

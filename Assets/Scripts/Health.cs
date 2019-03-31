@@ -43,4 +43,6 @@ public class Health : MonoBehaviour
         GetComponent<BoxCollider2D>().enabled = false; // Disable collider co projectiles can pass through
         Destroy(gameObject, 1.5f);
     }
+
+    public float GetHealth() { return health; }
 }

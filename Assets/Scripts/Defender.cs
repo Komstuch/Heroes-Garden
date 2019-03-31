@@ -6,6 +6,8 @@ public class Defender : MonoBehaviour
 {
     [SerializeField] int cost;
 
+    [SerializeField] bool isStatic;
+
     public void AddCoins(int coins)
     {
         FindObjectOfType<CoinDisplay>().AddCoins(coins);
@@ -13,4 +15,6 @@ public class Defender : MonoBehaviour
     }
 
     public int GetCost() { return cost; }
+
+    public bool GetStatic() { return isStatic; }
 }
