@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AttackerSpawner : MonoBehaviour
 {
-    bool spawn = false;
+    bool spawn = true;
     [SerializeField] float minTimeBetweenSpawn = 3f;
     [SerializeField] float maxTimeBetweenSpawn = 5f;
     [SerializeField] float timeToSpawn;
@@ -12,10 +12,12 @@ public class AttackerSpawner : MonoBehaviour
 
     IEnumerator Start()
     {
-        timeToSpawn = Random.Range(minTimeBetweenSpawn, maxTimeBetweenSpawn);
-        yield return new WaitForSeconds(timeToSpawn);
-        SpawnAttacker();
-        spawn = true;
+        while (spawn)
+        {
+            timeToSpawn = Random.Range(minTimeBetweenSpawn, maxTimeBetweenSpawn);
+            yield return new WaitForSeconds(timeToSpawn);
+            SpawnAttacker();
+        }
     }
 
     private void SpawnAttacker()
@@ -26,12 +28,9 @@ public class AttackerSpawner : MonoBehaviour
         currentAttacker.transform.parent = transform;
     }
 
-    void Update()
+    public void StopSpawning()
     {
-        if (spawn)
-        {
-            spawn = false;
-            StartCoroutine(Start());
-        }
+        spawn = false;
+        StopAllCoroutines();
     }
 }
