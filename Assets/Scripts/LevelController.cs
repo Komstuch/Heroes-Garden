@@ -8,21 +8,23 @@ public class LevelController : MonoBehaviour
 
     int numberOfAttackers = 0;
     bool levelTimerFinished = false;
-    void Start()
-    {
-        
-    }
+    [SerializeField] GameObject levelCompleteCanvas;
+    [SerializeField] float nextLevelTimeDelay = 4.2f;
+    [SerializeField] AudioClip winLevelSFX;
 
-    void Update()
+    private void Start()
     {
-        
+        levelCompleteCanvas.SetActive(false);
     }
 
     public void AttackerSpawned() { numberOfAttackers++; }
     public void AttackerKilled()
     {
         numberOfAttackers--;
-        if (numberOfAttackers <= 0 && levelTimerFinished) Debug.Log("End level now!");
+        if (numberOfAttackers <= 0 && levelTimerFinished)
+        {
+            StartCoroutine(HandleLevelCompletion());
+        }
     }
     public void LevelTimerHasFinished()
     {
@@ -37,5 +39,13 @@ public class LevelController : MonoBehaviour
         {
             spawner.StopSpawning();
         }
+    }
+
+    IEnumerator HandleLevelCompletion()
+    {
+        levelCompleteCanvas.SetActive(true);
+        AudioSource.PlayClipAtPoint(winLevelSFX, transform.position);
+        yield return new WaitForSeconds(nextLevelTimeDelay);
+        FindObjectOfType<LevelLoader>().LoadNextLevel();
     }
 }
