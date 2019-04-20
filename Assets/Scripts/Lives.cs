@@ -25,10 +25,11 @@ public class Lives : MonoBehaviour
         lives -= damage;
         UpdateDisplay();
 
-        if(lives <= 0)
+        if (lives <= 0)
         {
-            FindObjectOfType<LevelLoader>().LoadLevel("Lose Screen");
+            FindObjectOfType<LevelController>().HandleLoseCondition();
         }
-
     }
+
+    public int GetLives() { return lives; }
 }

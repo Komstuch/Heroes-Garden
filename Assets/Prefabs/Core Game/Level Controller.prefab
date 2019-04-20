@@ -44,5 +44,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelCompleteCanvas: {fileID: 0}
+  levelLostCanvas: {fileID: 0}
   nextLevelTimeDelay: 4.2
   winLevelSFX: {fileID: 8300000, guid: 598fcaa5a61819c4483a2b8a72d03451, type: 3}
+  loseLevelSFX: {fileID: 8300000, guid: b462c94f2cd385c4791634c68976447b, type: 3}

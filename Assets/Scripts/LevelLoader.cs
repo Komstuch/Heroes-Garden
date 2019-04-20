@@ -19,6 +19,7 @@ public class LevelLoader : MonoBehaviour
     public void LoadLevel(string name)
     {
         SceneManager.LoadScene(name);
+        Time.timeScale = 1f;
     }
     IEnumerator LoadSplashScreen()
     {
@@ -34,5 +35,6 @@ public class LevelLoader : MonoBehaviour
     public void RestartLevel()
     {
         SceneManager.LoadScene(currentSceneIndex);
+        Time.timeScale = 1f;
     }
 }
