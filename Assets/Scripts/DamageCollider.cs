@@ -10,5 +10,6 @@ public class DamageCollider : MonoBehaviour
     {
         lives = FindObjectOfType<Lives>();
         lives.TakeLife();
+        Destroy(collision.gameObject);
     }
 }
