@@ -128,7 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a9cb07ffac5e348a5d4c5d0cc27436, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 300
   hitSound: {fileID: 8300000, guid: fef3daccd973ce447ad6c4a76a4c50ac, type: 3}
   deathSound: {fileID: 8300000, guid: 3c46015523b283e47a5413e293a29eeb, type: 3}
 --- !u!114 &1401331831746184086

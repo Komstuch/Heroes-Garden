@@ -66,7 +66,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0948573fda6137543a82d08f7acb1bab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cost: 30
+  cost: 80
   isStatic: 1
 --- !u!61 &2003245364249069093
 BoxCollider2D:
@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a9cb07ffac5e348a5d4c5d0cc27436, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 200
+  health: 250
   hitSound: {fileID: 8300000, guid: a94c9ed56d0c87b4b8beb75dae497b15, type: 3}
   deathSound: {fileID: 8300000, guid: 3b44ac970820e924dbed135f5124b6ee, type: 3}
 --- !u!1 &3687707303461196019

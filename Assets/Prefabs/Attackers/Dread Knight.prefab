@@ -194,7 +194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38db64a58f646e14f9697ba99d269c90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 30
+  damage: 20
 --- !u!114 &2592173034330513816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -207,7 +207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a9cb07ffac5e348a5d4c5d0cc27436, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 200
+  health: 500
   hitSound: {fileID: 8300000, guid: f4bf00c64cf9ea2489ebd9a1ad78f561, type: 3}
   deathSound: {fileID: 8300000, guid: f6814828d8089ed4abff3ab71258ab79, type: 3}
 --- !u!114 &8764358263700349309
