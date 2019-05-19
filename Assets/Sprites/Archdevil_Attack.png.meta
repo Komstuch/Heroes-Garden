@@ -1,20 +1,18 @@
 fileFormatVersion: 2
-guid: 47edb2679f3fc2341966ab72ad7871bf
+guid: d8558f4dfb5d89147a3632d782ed4b2e
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Archangel_Fly_0
-    21300002: Archangel_Fly_1
-    21300004: Archangel_Fly_2
-    21300006: Archangel_Fly_3
-    21300008: Archangel_Fly_4
-    21300010: Archangel_Fly_5
-    21300012: Archangel_Fly_7
-    21300014: Archangel_Fly_9
-    21300016: Archangel_Fly_10
-    21300018: Archangel_Fly_12
-    21300020: Archangel_Fly_13
-    21300022: Archangel_Fly_14
-    21300024: Archangel_Fly_15
+    21300000: Archdevil_Attack_0
+    21300002: Archdevil_Attack_1
+    21300004: Archdevil_Attack_2
+    21300006: Archdevil_Attack_3
+    21300008: Archdevil_Attack_4
+    21300010: Archdevil_Attack_5
+    21300012: Archdevil_Attack_6
+    21300014: Archdevil_Attack_7
+    21300016: Archdevil_Attack_8
+    21300018: Archdevil_Attack_9
+    21300020: Archdevil_Attack_10
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -119,32 +117,152 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Archangel_Fly_0
+      name: Archdevil_Attack_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 0
-        width: 150
-        height: 117
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 396
+        y: 8
+        width: 114
+        height: 140
+      alignment: 9
+      pivot: {x: 0.30701753, y: 0.3857143}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f84bde2651ac074ba5b8ca9ca0c80f7
+      spriteID: 831588c849796954bbfc79897e47ca93
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Archangel_Fly_2
+      name: Archdevil_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 51
+        height: 117
+      alignment: 9
+      pivot: {x: 0.78431374, y: 0.52991456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd43ef6d351052247ad08283ca0dbf0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archdevil_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 76
+        height: 117
+      alignment: 9
+      pivot: {x: 0.55263156, y: 0.53846157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302dc9acf558f7e4eacac6004c04e1df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archdevil_Attack_6
       rect:
         serializedVersion: 2
         x: 166
         y: 0
-        width: 150
+        width: 59
+        height: 115
+      alignment: 9
+      pivot: {x: 0.7627119, y: 0.53913045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10467008c21119419dc89c0d695e7b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archdevil_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 0
+        width: 140
+        height: 109
+      alignment: 9
+      pivot: {x: 0.6571429, y: 0.56880736}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51334a1a97b281649942ebc1cda512c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archdevil_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 7
+        width: 118
+        height: 115
+      alignment: 9
+      pivot: {x: 0.22033899, y: 0.47826087}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5533e65ed4587584daecd62ace897f21
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archdevil_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 8
+        width: 93
+        height: 112
+      alignment: 9
+      pivot: {x: 0.26881722, y: 0.48214287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0543463f9755a104c9dd1d41dc6b989b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archdevil_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 4
+        width: 72
         height: 117
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -153,207 +271,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f5ec2e1576ab234b8af8c5933d1f8ba
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Archangel_Fly_3
-      rect:
-        serializedVersion: 2
-        x: 333
-        y: 0
-        width: 140
-        height: 117
-      alignment: 9
-      pivot: {x: 0.71428573, y: 0.8514635}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e0e0d415c45d8a3449e066943552c71b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Archangel_Fly_4
-      rect:
-        serializedVersion: 2
-        x: 463
-        y: 0
-        width: 140
-        height: 117
-      alignment: 9
-      pivot: {x: 0.71428573, y: 0.8461539}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b6cdde25bd4ee034bb4da0aff94dacca
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Archangel_Fly_5
-      rect:
-        serializedVersion: 2
-        x: 609
-        y: 0
-        width: 140
-        height: 117
-      alignment: 9
-      pivot: {x: 0.71428573, y: 0.85470086}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7f302e7f40ed2974b939e072d468c94e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Archangel_Fly_7
-      rect:
-        serializedVersion: 2
-        x: 798
-        y: 0
-        width: 140
-        height: 117
-      alignment: 9
-      pivot: {x: 0.71428573, y: 0.85470086}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 971ca3fa5f0a6fd45874caff4cfeabd7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Archangel_Fly_9
-      rect:
-        serializedVersion: 2
-        x: 997
-        y: 0
-        width: 140
-        height: 117
-      alignment: 9
-      pivot: {x: 0.71428573, y: 0.85470086}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d29acf505f6942419327c4c447958d1
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Archangel_Fly_10
-      rect:
-        serializedVersion: 2
-        x: 1184
-        y: 0
-        width: 140
-        height: 114
-      alignment: 9
-      pivot: {x: 0.6666667, y: 0.85470086}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f667915c216faf447a3c741d1a07bd42
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Archangel_Fly_12
-      rect:
-        serializedVersion: 2
-        x: 1344
-        y: 0
-        width: 140
-        height: 114
-      alignment: 9
-      pivot: {x: 0.71428573, y: 0.85470086}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c731e4b44ac01194fafb6161d2c429d2
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Archangel_Fly_13
-      rect:
-        serializedVersion: 2
-        x: 1521
-        y: 0
-        width: 140
-        height: 117
-      alignment: 9
-      pivot: {x: 0.71428573, y: 0.8034188}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 839d13a37fe579e429d0d1e30136f287
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Archangel_Fly_14
-      rect:
-        serializedVersion: 2
-        x: 1677
-        y: 0
-        width: 136
-        height: 117
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7693b00d85f6dc642979af20ba033e8f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Archangel_Fly_15
-      rect:
-        serializedVersion: 2
-        x: 1853
-        y: 0
-        width: 120
-        height: 117
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5147ee7c2b7792743b0db35d5fc96b86
+      spriteID: d86ecd899650aa94dae7d31db6b8c2c8
       vertices: []
       indices: 
       edges: []
@@ -361,7 +279,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 931c8c5c8b9b754409d224721a81fd63
+    spriteID: 98269a7a6f7be9640bec26fff5fdfe40
     vertices: []
     indices: 
     edges: []

@@ -1,20 +1,22 @@
 fileFormatVersion: 2
-guid: 47edb2679f3fc2341966ab72ad7871bf
+guid: 039c2d687d731e34a88bd7f31bd81289
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Archangel_Fly_0
-    21300002: Archangel_Fly_1
-    21300004: Archangel_Fly_2
-    21300006: Archangel_Fly_3
-    21300008: Archangel_Fly_4
-    21300010: Archangel_Fly_5
-    21300012: Archangel_Fly_7
-    21300014: Archangel_Fly_9
-    21300016: Archangel_Fly_10
-    21300018: Archangel_Fly_12
-    21300020: Archangel_Fly_13
-    21300022: Archangel_Fly_14
-    21300024: Archangel_Fly_15
+    21300000: Archdevil_Disappear_0
+    21300002: Archdevil_Disappear_1
+    21300004: Archdevil_Disappear_2
+    21300006: Archdevil_Disappear_3
+    21300008: Archdevil_Disappear_4
+    21300010: Archdevil_Disappear_5
+    21300012: Archdevil_Disappear_6
+    21300014: Archdevil_Disappear_7
+    21300016: Archdevil_Disappear_8
+    21300018: Archdevil_Disappear_9
+    21300020: Archdevil_Disappear_10
+    21300022: Archdevil_Disappear_11
+    21300024: Archdevil_Disappear_12
+    21300026: Archdevil_Disappear_13
+    21300028: Archdevil_Disappear_14
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -119,13 +121,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Archangel_Fly_0
+      name: Archdevil_Disappear_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 0
-        width: 150
-        height: 117
+        x: 0
+        y: 49
+        width: 87
+        height: 114
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,19 +135,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f84bde2651ac074ba5b8ca9ca0c80f7
+      spriteID: a751e9815516d45489e1313486025135
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Archangel_Fly_2
+      name: Archdevil_Disappear_1
       rect:
         serializedVersion: 2
-        x: 166
-        y: 0
-        width: 150
-        height: 117
+        x: 101
+        y: 44
+        width: 87
+        height: 105
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,179 +155,199 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f5ec2e1576ab234b8af8c5933d1f8ba
+      spriteID: 1cd7a2c692abf6744bea6c30c5530b5d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Archangel_Fly_3
+      name: Archdevil_Disappear_2
       rect:
         serializedVersion: 2
-        x: 333
-        y: 0
-        width: 140
-        height: 117
-      alignment: 9
-      pivot: {x: 0.71428573, y: 0.8514635}
+        x: 199
+        y: 30
+        width: 88
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0e0d415c45d8a3449e066943552c71b
+      spriteID: 3faa53184cd356b4f884632a6c6ea5fa
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Archangel_Fly_4
+      name: Archdevil_Disappear_3
       rect:
         serializedVersion: 2
-        x: 463
-        y: 0
-        width: 140
-        height: 117
-      alignment: 9
-      pivot: {x: 0.71428573, y: 0.8461539}
+        x: 309
+        y: 24
+        width: 88
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6cdde25bd4ee034bb4da0aff94dacca
+      spriteID: 8dd41b9740dc18e4db0016c906534744
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Archangel_Fly_5
+      name: Archdevil_Disappear_4
       rect:
         serializedVersion: 2
-        x: 609
-        y: 0
-        width: 140
-        height: 117
-      alignment: 9
-      pivot: {x: 0.71428573, y: 0.85470086}
+        x: 413
+        y: 23
+        width: 85
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f302e7f40ed2974b939e072d468c94e
+      spriteID: 41de04d4f7e299d45adc70005cd8d259
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Archangel_Fly_7
+      name: Archdevil_Disappear_5
       rect:
         serializedVersion: 2
-        x: 798
-        y: 0
-        width: 140
-        height: 117
-      alignment: 9
-      pivot: {x: 0.71428573, y: 0.85470086}
+        x: 515
+        y: 18
+        width: 84
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 971ca3fa5f0a6fd45874caff4cfeabd7
+      spriteID: b3e8150415cb1114d8289b9d1298256a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Archangel_Fly_9
+      name: Archdevil_Disappear_6
       rect:
         serializedVersion: 2
-        x: 997
-        y: 0
-        width: 140
-        height: 117
-      alignment: 9
-      pivot: {x: 0.71428573, y: 0.85470086}
+        x: 618
+        y: 12
+        width: 81
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d29acf505f6942419327c4c447958d1
+      spriteID: 67cb4d49e085897499c0d79fd9f8efa1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Archangel_Fly_10
+      name: Archdevil_Disappear_7
       rect:
         serializedVersion: 2
-        x: 1184
-        y: 0
-        width: 140
+        x: 716
+        y: 8
+        width: 78
         height: 114
       alignment: 9
-      pivot: {x: 0.6666667, y: 0.85470086}
+      pivot: {x: 0.53846157, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f667915c216faf447a3c741d1a07bd42
+      spriteID: 620cedba19e2a55479bbac16c6a4d109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Archangel_Fly_12
+      name: Archdevil_Disappear_8
       rect:
         serializedVersion: 2
-        x: 1344
+        x: 813
         y: 0
-        width: 140
-        height: 114
+        width: 86
+        height: 122
       alignment: 9
-      pivot: {x: 0.71428573, y: 0.85470086}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c731e4b44ac01194fafb6161d2c429d2
+      spriteID: d46935723137ef14a9912e004dfced72
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Archangel_Fly_13
+      name: Archdevil_Disappear_9
       rect:
         serializedVersion: 2
-        x: 1521
-        y: 0
-        width: 140
-        height: 117
+        x: 911
+        y: 2
+        width: 85
+        height: 120
       alignment: 9
-      pivot: {x: 0.71428573, y: 0.8034188}
+      pivot: {x: 0.5647059, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 839d13a37fe579e429d0d1e30136f287
+      spriteID: ddebc7e6583c8994a931d42258e9f2b1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Archangel_Fly_14
+      name: Archdevil_Disappear_10
       rect:
         serializedVersion: 2
-        x: 1677
-        y: 0
-        width: 136
-        height: 117
+        x: 1008
+        y: 26
+        width: 77
+        height: 97
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5463917}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc87a09ee5616884897bd84ee2665f7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archdevil_Disappear_11
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 27
+        width: 113
+        height: 112
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -333,27 +355,67 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7693b00d85f6dc642979af20ba033e8f
+      spriteID: b3fe9f3fd8a76d54eb2cad842a6738f4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Archangel_Fly_15
+      name: Archdevil_Disappear_12
       rect:
         serializedVersion: 2
-        x: 1853
-        y: 0
-        width: 120
-        height: 117
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1206
+        y: 27
+        width: 129
+        height: 108
+      alignment: 9
+      pivot: {x: 0.56589144, y: 0.5185185}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5147ee7c2b7792743b0db35d5fc96b86
+      spriteID: d0b496fee22d24241b2626de4458510d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archdevil_Disappear_13
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 27
+        width: 88
+        height: 113
+      alignment: 9
+      pivot: {x: 0.64772725, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91933823b55a75e4ab9d1b18d7457866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archdevil_Disappear_14
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9f19c992b1b034fbe9ea89bca51797
       vertices: []
       indices: 
       edges: []
@@ -361,7 +423,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 931c8c5c8b9b754409d224721a81fd63
+    spriteID: 1d39df46c63a47f4282f47b54f24f48e
     vertices: []
     indices: 
     edges: []
