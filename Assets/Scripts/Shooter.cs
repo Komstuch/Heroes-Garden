@@ -16,6 +16,7 @@ public class Shooter : MonoBehaviour
     AttackerSpawner myLaneSpawner;
     Animator animator;
     GameObject projectileParent;
+    float masterVolume;
 
     const string PROJECTILE_PARENT_NAME = "Projectiles";
 
@@ -24,6 +25,7 @@ public class Shooter : MonoBehaviour
         SetLaneSpawner();
         CreateProjectileParent();
         animator = GetComponent<Animator>();
+        masterVolume = PlayerPrefsManager.GetMasterVolume();
     }
 
     private void CreateProjectileParent()
@@ -88,6 +90,6 @@ public class Shooter : MonoBehaviour
 
     public void PlaySound()
     {
-        AudioSource.PlayClipAtPoint(shootingSound, transform.position, 0.5f);
+        AudioSource.PlayClipAtPoint(shootingSound, transform.position, masterVolume * 0.5f);
     }
 }

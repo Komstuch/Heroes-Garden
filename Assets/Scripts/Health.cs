@@ -11,15 +11,17 @@ public class Health : MonoBehaviour
     [SerializeField] AudioClip deathSound;
 
     Animator animator;
+    float masterVolume;
 
     private void Start()
     {
         animator = GetComponent<Animator>();
+        masterVolume = PlayerPrefsManager.GetMasterVolume();
     }
 
     public bool DealDamage(float damage)
     {
-        AudioSource.PlayClipAtPoint(hitSound, transform.position, 0.5f);
+        AudioSource.PlayClipAtPoint(hitSound, transform.position, masterVolume);
 
         if(!GetComponent<Shooter>() && GetComponent<Defender>() ) // play animation if defender is passive
         {
@@ -38,7 +40,7 @@ public class Health : MonoBehaviour
 
     private void Die()
     {
-        AudioSource.PlayClipAtPoint(deathSound, transform.position, 0.5f);
+        AudioSource.PlayClipAtPoint(deathSound, transform.position, masterVolume);
         animator.SetBool("isDead", true); // Play Death Animation
         GetComponent<BoxCollider2D>().enabled = false; // Disable collider co projectiles can pass through
         Destroy(gameObject, 1.5f);

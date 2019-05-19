@@ -44,7 +44,7 @@ public class Projectile : MonoBehaviour
             Destroy(deathVFXObject, 2f);
         }
 
-        if (explosionSound) { AudioSource.PlayClipAtPoint(explosionSound, transform.position); }      
+        if (explosionSound) { AudioSource.PlayClipAtPoint(explosionSound, transform.position, PlayerPrefsManager.GetMasterVolume()); }      
     }
 
     public float GetDamage() { return projectileDamage; }

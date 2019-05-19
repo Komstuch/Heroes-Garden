@@ -14,12 +14,14 @@ public class LevelController : MonoBehaviour
     [SerializeField] float nextLevelTimeDelay = 4.2f;
     [SerializeField] AudioClip winLevelSFX;
     [SerializeField] AudioClip loseLevelSFX;
+    float masterVolume;
 
     private void Start()
     {
         levelCompleteCanvas.SetActive(false);
         levelLostCanvas.SetActive(false);
         currentLives = FindObjectOfType<Lives>().GetLives();
+        masterVolume = PlayerPrefsManager.GetMasterVolume();
     }
 
     public void AttackerSpawned() { numberOfAttackers++; }
@@ -49,7 +51,7 @@ public class LevelController : MonoBehaviour
     IEnumerator HandleLevelCompletion()
     {
         levelCompleteCanvas.SetActive(true);
-        AudioSource.PlayClipAtPoint(winLevelSFX, transform.position);
+        AudioSource.PlayClipAtPoint(winLevelSFX, transform.position, masterVolume);
         yield return new WaitForSeconds(nextLevelTimeDelay);
         FindObjectOfType<LevelLoader>().LoadNextLevel();
     }
@@ -57,7 +59,7 @@ public class LevelController : MonoBehaviour
     public void HandleLoseCondition()
     {
         levelLostCanvas.SetActive(true);
-        AudioSource.PlayClipAtPoint(loseLevelSFX, transform.position);
+        AudioSource.PlayClipAtPoint(loseLevelSFX, transform.position, masterVolume);
         Time.timeScale = 0;
     }
 }

@@ -13,6 +13,6 @@ public class CoinSpark : MonoBehaviour
         Destroy(VFX, 2f);
 
         if (!coinSound) { return; }
-        else { AudioSource.PlayClipAtPoint(coinSound, transform.position);  }
+        else { AudioSource.PlayClipAtPoint(coinSound, transform.position, PlayerPrefsManager.GetMasterVolume());  }
     }
 }

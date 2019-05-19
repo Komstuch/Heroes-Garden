@@ -365,80 +365,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b6e5233ce3f25341b13843175031672, type: 3}
---- !u!1001 &1086921562
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 8582977518207523443, guid: f55ce5cf764eb4e4cbd55fe5e3fa0f63,
-        type: 3}
-      propertyPath: m_Name
-      value: Music Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 8582977518207523441, guid: f55ce5cf764eb4e4cbd55fe5e3fa0f63,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 423.8332
-      objectReference: {fileID: 0}
-    - target: {fileID: 8582977518207523441, guid: f55ce5cf764eb4e4cbd55fe5e3fa0f63,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 176.1775
-      objectReference: {fileID: 0}
-    - target: {fileID: 8582977518207523441, guid: f55ce5cf764eb4e4cbd55fe5e3fa0f63,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -8.785112
-      objectReference: {fileID: 0}
-    - target: {fileID: 8582977518207523441, guid: f55ce5cf764eb4e4cbd55fe5e3fa0f63,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8582977518207523441, guid: f55ce5cf764eb4e4cbd55fe5e3fa0f63,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8582977518207523441, guid: f55ce5cf764eb4e4cbd55fe5e3fa0f63,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8582977518207523441, guid: f55ce5cf764eb4e4cbd55fe5e3fa0f63,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8582977518207523441, guid: f55ce5cf764eb4e4cbd55fe5e3fa0f63,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8582977518207523441, guid: f55ce5cf764eb4e4cbd55fe5e3fa0f63,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8582977518207523441, guid: f55ce5cf764eb4e4cbd55fe5e3fa0f63,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8582977518207523441, guid: f55ce5cf764eb4e4cbd55fe5e3fa0f63,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8582977518207523442, guid: f55ce5cf764eb4e4cbd55fe5e3fa0f63,
-        type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f55ce5cf764eb4e4cbd55fe5e3fa0f63, type: 3}
 --- !u!1001 &501704402376254779
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -451,6 +377,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Options Controller
       objectReference: {fileID: 0}
+    - target: {fileID: 501704402486878688, guid: 03a202f2fc5bd7c4293512b230f60d10,
+        type: 3}
+      propertyPath: volumeSlider
+      value: 
+      objectReference: {fileID: 893907865}
+    - target: {fileID: 501704402486878688, guid: 03a202f2fc5bd7c4293512b230f60d10,
+        type: 3}
+      propertyPath: difficultySlider
+      value: 
+      objectReference: {fileID: 800005516}
     - target: {fileID: 501704402486878695, guid: 03a202f2fc5bd7c4293512b230f60d10,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -489,7 +425,7 @@ PrefabInstance:
     - target: {fileID: 501704402486878695, guid: 03a202f2fc5bd7c4293512b230f60d10,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 501704402486878695, guid: 03a202f2fc5bd7c4293512b230f60d10,
         type: 3}
@@ -506,16 +442,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 501704402486878688, guid: 03a202f2fc5bd7c4293512b230f60d10,
-        type: 3}
-      propertyPath: volumeSlider
-      value: 
-      objectReference: {fileID: 893907865}
-    - target: {fileID: 501704402486878688, guid: 03a202f2fc5bd7c4293512b230f60d10,
-        type: 3}
-      propertyPath: difficultySlider
-      value: 
-      objectReference: {fileID: 800005516}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03a202f2fc5bd7c4293512b230f60d10, type: 3}
 --- !u!1001 &2326126498851258296
@@ -529,6 +455,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Options Screen Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 2326126497869186625, guid: c2d4de9edb1e5da4ea209c4224b57c64,
+        type: 3}
+      propertyPath: m_MaxValue
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2326126497869186625, guid: c2d4de9edb1e5da4ea209c4224b57c64,
+        type: 3}
+      propertyPath: m_MinValue
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2326126498039278947, guid: c2d4de9edb1e5da4ea209c4224b57c64,
         type: 3}
@@ -643,16 +579,6 @@ PrefabInstance:
     - target: {fileID: 2326126497342910511, guid: c2d4de9edb1e5da4ea209c4224b57c64,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2326126497869186625, guid: c2d4de9edb1e5da4ea209c4224b57c64,
-        type: 3}
-      propertyPath: m_MaxValue
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2326126497869186625, guid: c2d4de9edb1e5da4ea209c4224b57c64,
-        type: 3}
-      propertyPath: m_MinValue
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2326126497181799611, guid: c2d4de9edb1e5da4ea209c4224b57c64,

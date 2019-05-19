@@ -10,11 +10,16 @@ public class MusicPlayer : MonoBehaviour
     {
         DontDestroyOnLoad(this);
         audioSource = GetComponent<AudioSource>();
-        audioSource.volume = PlayerPrefsManager.GetMasterVolume();
+        audioSource.volume = PlayerPrefsManager.GetMasterVolume() * 0.1f;
     }
 
     public void SetVolume(float volume)
     {
-        audioSource.volume = volume;
+        audioSource.volume = volume * 0.1f;
+    }
+
+    private void OnLevelWasLoaded(int level)
+    {
+        Debug.Log("Level ID: " + level);
     }
 }
