@@ -1175,7 +1175,7 @@ PrefabInstance:
     - target: {fileID: 5778116664703013872, guid: b7f79c337fc59d3499f10109e22280e5,
         type: 3}
       propertyPath: minTimeBetweenSpawn
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5778116664703013872, guid: b7f79c337fc59d3499f10109e22280e5,
         type: 3}
@@ -1190,7 +1190,7 @@ PrefabInstance:
     - target: {fileID: 5778116665590215633, guid: b7f79c337fc59d3499f10109e22280e5,
         type: 3}
       propertyPath: minTimeBetweenSpawn
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5778116665590215633, guid: b7f79c337fc59d3499f10109e22280e5,
         type: 3}

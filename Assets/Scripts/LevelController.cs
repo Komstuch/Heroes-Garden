@@ -50,6 +50,7 @@ public class LevelController : MonoBehaviour
 
     IEnumerator HandleLevelCompletion()
     {
+        MuteSound();
         levelCompleteCanvas.SetActive(true);
         AudioSource.PlayClipAtPoint(winLevelSFX, transform.position, masterVolume);
         yield return new WaitForSeconds(nextLevelTimeDelay);
@@ -58,8 +59,15 @@ public class LevelController : MonoBehaviour
     
     public void HandleLoseCondition()
     {
+        MuteSound();
         levelLostCanvas.SetActive(true);
         AudioSource.PlayClipAtPoint(loseLevelSFX, transform.position, masterVolume);
         Time.timeScale = 0;
+    }
+
+    private void MuteSound()
+    {
+        AudioSource audioSource = FindObjectOfType<MusicPlayer>().GetComponent<AudioSource>();
+        audioSource.Pause();
     }
 }
