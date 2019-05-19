@@ -6,7 +6,7 @@ using UnityEngine;
 public class LevelController : MonoBehaviour
 {
 
-    int numberOfAttackers = 0;
+    [SerializeField]int numberOfAttackers = 0;
     int currentLives;
     bool levelTimerFinished = false;
     [SerializeField] GameObject levelCompleteCanvas;

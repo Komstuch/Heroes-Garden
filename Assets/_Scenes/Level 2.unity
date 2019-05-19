@@ -178,6 +178,81 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &626276618
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1043467472}
+    m_Modifications:
+    - target: {fileID: 1149397057154508547, guid: 4d0492060d7d57143889672cda3f553d,
+        type: 3}
+      propertyPath: m_Name
+      value: Gold Mine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149397057154508550, guid: 4d0492060d7d57143889672cda3f553d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149397057154508550, guid: 4d0492060d7d57143889672cda3f553d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149397057154508550, guid: 4d0492060d7d57143889672cda3f553d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0859375
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149397057154508550, guid: 4d0492060d7d57143889672cda3f553d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149397057154508550, guid: 4d0492060d7d57143889672cda3f553d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149397057154508550, guid: 4d0492060d7d57143889672cda3f553d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149397057154508550, guid: 4d0492060d7d57143889672cda3f553d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149397057154508550, guid: 4d0492060d7d57143889672cda3f553d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149397057154508550, guid: 4d0492060d7d57143889672cda3f553d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149397057154508550, guid: 4d0492060d7d57143889672cda3f553d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149397057154508550, guid: 4d0492060d7d57143889672cda3f553d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4d0492060d7d57143889672cda3f553d, type: 3}
+--- !u!4 &626276619 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1149397057154508550, guid: 4d0492060d7d57143889672cda3f553d,
+    type: 3}
+  m_PrefabInstance: {fileID: 626276618}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &646457923
 GameObject:
   m_ObjectHideFlags: 0
@@ -247,7 +322,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 960313470}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.1004174, y: 2.9354062, z: 0.0859375}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -277,9 +352,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1043467471}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.1004174, y: 2.9354062, z: 0.0859375}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 626276619}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -922,6 +998,30 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6242679824461713613, guid: 536b34393b88b9f419834c7839f9f819,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -324
+      objectReference: {fileID: 0}
+    - target: {fileID: 512680308, guid: 536b34393b88b9f419834c7839f9f819, type: 3}
+      propertyPath: coins
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 4592888028908749108, guid: 536b34393b88b9f419834c7839f9f819,
+        type: 3}
+      propertyPath: levelTime
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 2975058501798713627, guid: 536b34393b88b9f419834c7839f9f819,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7785649995906883298, guid: 536b34393b88b9f419834c7839f9f819,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7024972192131625123, guid: 536b34393b88b9f419834c7839f9f819,
         type: 3}
       propertyPath: m_Sprite
@@ -1137,43 +1237,68 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58176177085031190, guid: b7f79c337fc59d3499f10109e22280e5,
         type: 3}
+      propertyPath: attackerPrefabs.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 58176177085031190, guid: b7f79c337fc59d3499f10109e22280e5,
+        type: 3}
       propertyPath: minTimeBetweenSpawn
-      value: 5
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 58176177085031190, guid: b7f79c337fc59d3499f10109e22280e5,
         type: 3}
       propertyPath: maxTimeBetweenSpawn
-      value: 10
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5778116665485560428, guid: b7f79c337fc59d3499f10109e22280e5,
+        type: 3}
+      propertyPath: attackerPrefabs.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5778116665485560428, guid: b7f79c337fc59d3499f10109e22280e5,
         type: 3}
       propertyPath: minTimeBetweenSpawn
-      value: 5
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5778116665485560428, guid: b7f79c337fc59d3499f10109e22280e5,
         type: 3}
       propertyPath: maxTimeBetweenSpawn
-      value: 10
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5778116664703013872, guid: b7f79c337fc59d3499f10109e22280e5,
+        type: 3}
+      propertyPath: attackerPrefabs.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5778116664703013872, guid: b7f79c337fc59d3499f10109e22280e5,
         type: 3}
       propertyPath: minTimeBetweenSpawn
-      value: 5
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5778116664703013872, guid: b7f79c337fc59d3499f10109e22280e5,
         type: 3}
       propertyPath: maxTimeBetweenSpawn
-      value: 10
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5778116665590215633, guid: b7f79c337fc59d3499f10109e22280e5,
+        type: 3}
+      propertyPath: attackerPrefabs.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5778116665590215633, guid: b7f79c337fc59d3499f10109e22280e5,
         type: 3}
       propertyPath: minTimeBetweenSpawn
-      value: 5
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5778116665590215633, guid: b7f79c337fc59d3499f10109e22280e5,
         type: 3}
       propertyPath: maxTimeBetweenSpawn
-      value: 10
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5778116665597641880, guid: b7f79c337fc59d3499f10109e22280e5,
+        type: 3}
+      propertyPath: attackerPrefabs.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5778116665597641880, guid: b7f79c337fc59d3499f10109e22280e5,
         type: 3}
@@ -1184,12 +1309,12 @@ PrefabInstance:
     - target: {fileID: 5778116665597641880, guid: b7f79c337fc59d3499f10109e22280e5,
         type: 3}
       propertyPath: minTimeBetweenSpawn
-      value: 5
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5778116665597641880, guid: b7f79c337fc59d3499f10109e22280e5,
         type: 3}
       propertyPath: maxTimeBetweenSpawn
-      value: 10
+      value: 16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7f79c337fc59d3499f10109e22280e5, type: 3}
