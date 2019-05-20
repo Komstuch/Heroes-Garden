@@ -998,11 +998,6 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6242679824461713613, guid: 536b34393b88b9f419834c7839f9f819,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -324
-      objectReference: {fileID: 0}
     - target: {fileID: 512680308, guid: 536b34393b88b9f419834c7839f9f819, type: 3}
       propertyPath: coins
       value: 300
@@ -1021,6 +1016,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6242679824461713613, guid: 536b34393b88b9f419834c7839f9f819,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -324
       objectReference: {fileID: 0}
     - target: {fileID: 7024972192131625123, guid: 536b34393b88b9f419834c7839f9f819,
         type: 3}
@@ -1234,87 +1234,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 58176177085031190, guid: b7f79c337fc59d3499f10109e22280e5,
-        type: 3}
-      propertyPath: attackerPrefabs.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 58176177085031190, guid: b7f79c337fc59d3499f10109e22280e5,
-        type: 3}
-      propertyPath: minTimeBetweenSpawn
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 58176177085031190, guid: b7f79c337fc59d3499f10109e22280e5,
-        type: 3}
-      propertyPath: maxTimeBetweenSpawn
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 5778116665485560428, guid: b7f79c337fc59d3499f10109e22280e5,
-        type: 3}
-      propertyPath: attackerPrefabs.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5778116665485560428, guid: b7f79c337fc59d3499f10109e22280e5,
-        type: 3}
-      propertyPath: minTimeBetweenSpawn
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 5778116665485560428, guid: b7f79c337fc59d3499f10109e22280e5,
-        type: 3}
-      propertyPath: maxTimeBetweenSpawn
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 5778116664703013872, guid: b7f79c337fc59d3499f10109e22280e5,
-        type: 3}
-      propertyPath: attackerPrefabs.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5778116664703013872, guid: b7f79c337fc59d3499f10109e22280e5,
-        type: 3}
-      propertyPath: minTimeBetweenSpawn
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 5778116664703013872, guid: b7f79c337fc59d3499f10109e22280e5,
-        type: 3}
-      propertyPath: maxTimeBetweenSpawn
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 5778116665590215633, guid: b7f79c337fc59d3499f10109e22280e5,
-        type: 3}
-      propertyPath: attackerPrefabs.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5778116665590215633, guid: b7f79c337fc59d3499f10109e22280e5,
-        type: 3}
-      propertyPath: minTimeBetweenSpawn
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 5778116665590215633, guid: b7f79c337fc59d3499f10109e22280e5,
-        type: 3}
-      propertyPath: maxTimeBetweenSpawn
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 5778116665597641880, guid: b7f79c337fc59d3499f10109e22280e5,
-        type: 3}
-      propertyPath: attackerPrefabs.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5778116665597641880, guid: b7f79c337fc59d3499f10109e22280e5,
-        type: 3}
-      propertyPath: attacker
-      value: 
-      objectReference: {fileID: 3352284665655976465, guid: e25de8b3ea5545044ab0cb7aaecff386,
-        type: 3}
-    - target: {fileID: 5778116665597641880, guid: b7f79c337fc59d3499f10109e22280e5,
-        type: 3}
-      propertyPath: minTimeBetweenSpawn
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 5778116665597641880, guid: b7f79c337fc59d3499f10109e22280e5,
-        type: 3}
-      propertyPath: maxTimeBetweenSpawn
-      value: 16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7f79c337fc59d3499f10109e22280e5, type: 3}
