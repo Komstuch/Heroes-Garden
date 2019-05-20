@@ -25,7 +25,12 @@ public class PlayerPrefsManager : MonoBehaviour
         }  
     }
 
-    public static float GetMasterVolume() { return PlayerPrefs.GetFloat(MASTER_VOLUME_KEY); }
+    public static float GetMasterVolume()
+    {
+        if (PlayerPrefs.HasKey(MASTER_VOLUME_KEY)) { return PlayerPrefs.GetFloat(MASTER_VOLUME_KEY); }
+        else { return 1f; }
+        
+    }
 
     public static void SetDifficulty(int difficulty)
     {
@@ -40,5 +45,9 @@ public class PlayerPrefsManager : MonoBehaviour
         
     }
 
-    public static int GetDifficulty() { return PlayerPrefs.GetInt(DIFFICULTY_KEY); }
+    public static int GetDifficulty()
+    {
+        if (PlayerPrefs.HasKey(DIFFICULTY_KEY)) { return PlayerPrefs.GetInt(DIFFICULTY_KEY); }
+        else { return 1; }
+         }
 }

@@ -567,6 +567,11 @@ PrefabInstance:
       propertyPath: levelLostCanvas
       value: 
       objectReference: {fileID: 8846904712506269174}
+    - target: {fileID: 3949071727700048612, guid: cb916158f1f3c10428b2d4c8adb002bf,
+        type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb916158f1f3c10428b2d4c8adb002bf, type: 3}
 --- !u!4 &3949071727190291357 stripped
@@ -950,6 +955,31 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 448089135183386463, guid: 536b34393b88b9f419834c7839f9f819,
+        type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 448089135183386463, guid: 536b34393b88b9f419834c7839f9f819,
+        type: 3}
+      propertyPath: m_Colors.m_DisabledColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 448089135183386463, guid: 536b34393b88b9f419834c7839f9f819,
+        type: 3}
+      propertyPath: m_Colors.m_DisabledColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 448089135183386463, guid: 536b34393b88b9f419834c7839f9f819,
+        type: 3}
+      propertyPath: m_Colors.m_DisabledColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 448089135183386463, guid: 536b34393b88b9f419834c7839f9f819,
+        type: 3}
+      propertyPath: m_Colors.m_DisabledColor.a
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 536b34393b88b9f419834c7839f9f819, type: 3}
 --- !u!1001 &7718520941749513371
@@ -1156,6 +1186,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5778116664703013872, guid: b7f79c337fc59d3499f10109e22280e5,
+        type: 3}
+      propertyPath: minTimeBetweenSpawn
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5778116664703013872, guid: b7f79c337fc59d3499f10109e22280e5,
+        type: 3}
+      propertyPath: maxTimeBetweenSpawn
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5778116665590215633, guid: b7f79c337fc59d3499f10109e22280e5,
+        type: 3}
+      propertyPath: minTimeBetweenSpawn
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5778116665590215633, guid: b7f79c337fc59d3499f10109e22280e5,
+        type: 3}
+      propertyPath: maxTimeBetweenSpawn
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 8169157240282421819, guid: b7f79c337fc59d3499f10109e22280e5,
         type: 3}

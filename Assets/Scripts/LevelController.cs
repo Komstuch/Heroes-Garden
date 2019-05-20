@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LevelController : MonoBehaviour
 {
@@ -14,7 +15,7 @@ public class LevelController : MonoBehaviour
     [SerializeField] float nextLevelTimeDelay = 4.2f;
     [SerializeField] AudioClip winLevelSFX;
     [SerializeField] AudioClip loseLevelSFX;
-    float masterVolume;
+    float masterVolume; 
 
     private void Start()
     {
@@ -24,15 +25,16 @@ public class LevelController : MonoBehaviour
         masterVolume = PlayerPrefsManager.GetMasterVolume();
     }
 
-    public void AttackerSpawned() { numberOfAttackers++; }
-    public void AttackerKilled()
+    private void Update()
     {
-        numberOfAttackers--;
         if (numberOfAttackers <= 0 && levelTimerFinished && currentLives > 0)
         {
             StartCoroutine(HandleLevelCompletion());
         }
     }
+
+    public void AttackerSpawned() { numberOfAttackers++; }
+    public void AttackerKilled() { numberOfAttackers--; }
     public void LevelTimerHasFinished()
     {
         levelTimerFinished = true;

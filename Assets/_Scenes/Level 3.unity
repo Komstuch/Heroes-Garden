@@ -941,6 +941,36 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: -217
       objectReference: {fileID: 0}
+    - target: {fileID: 448089135183386463, guid: 536b34393b88b9f419834c7839f9f819,
+        type: 3}
+      propertyPath: m_Colors.m_DisabledColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 448089135183386463, guid: 536b34393b88b9f419834c7839f9f819,
+        type: 3}
+      propertyPath: m_Colors.m_DisabledColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 448089135183386463, guid: 536b34393b88b9f419834c7839f9f819,
+        type: 3}
+      propertyPath: m_Colors.m_DisabledColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 448089135183386463, guid: 536b34393b88b9f419834c7839f9f819,
+        type: 3}
+      propertyPath: m_Colors.m_DisabledColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 448089135183386463, guid: 536b34393b88b9f419834c7839f9f819,
+        type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 448089135183386463, guid: 536b34393b88b9f419834c7839f9f819,
+        type: 3}
+      propertyPath: m_Value
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7024972192131625123, guid: 536b34393b88b9f419834c7839f9f819,
         type: 3}
       propertyPath: m_Sprite
