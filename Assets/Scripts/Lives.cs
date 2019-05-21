@@ -5,11 +5,11 @@ using UnityEngine.UI;
 
 public class Lives : MonoBehaviour
 {
-    [SerializeField] int baseLives = 3;
-    [SerializeField] int damage = 1;
+    int baseLives = 3;
+    int damage = 1;
     Text livesText;
     int lives;
-    private void Start()
+    private void Awake()
     {
         lives = baseLives - PlayerPrefsManager.GetDifficulty();
         livesText = GetComponent<Text>();

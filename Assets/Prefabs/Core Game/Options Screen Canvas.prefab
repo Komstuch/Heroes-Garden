@@ -633,8 +633,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -251, y: 174}
-  m_SizeDelta: {x: 782, y: 143}
+  m_AnchoredPosition: {x: -229.8, y: 174}
+  m_SizeDelta: {x: 743.6, y: 143}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2326126498136936091
 CanvasRenderer:
@@ -717,9 +717,9 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: b22cef6874741e844b414c9ed3905203, type: 3}
+  m_Sprite: {fileID: 21300000, guid: df76495290de012448e70ca623f05145, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
